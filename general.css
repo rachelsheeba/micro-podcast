@@ -7,8 +7,9 @@
 
 html {
     font-size: 62.5%;
+    font-family: "Rubik", sans-serif;
 }
 
 body {
-    font-family: "Rubik", sans-serif;
+    background-color: #0C003D;
 }

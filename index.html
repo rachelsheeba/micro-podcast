@@ -4,6 +4,25 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Micro - Podcast Website</title>
+
+        <link rel="stylesheet" href="general.css" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <header class="header">
@@ -22,11 +41,78 @@
                     <li><a class="main-nav-link">Host</a></li>
                     <li><a class="main-nav-link">Blog</a></li>
                     <li><a class="main-nav-link">Contact</a></li>
+                    <li>
+                        <button class="icons">
+                            <ion-icon name="search"></ion-icon>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="icons">
+                            <ion-icon name="log-in"></ion-icon>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="icons">
+                            <ion-icon name="cart"></ion-icon>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="nav-btn">
+                            <ion-icon
+                                class="paypal"
+                                name="logo-paypal"
+                            ></ion-icon
+                            >Donate
+                        </button>
+                    </li>
                 </ul>
-                <!-- <ion-icon class="icons" name="search"></ion-icon>
-                <ion-icon class="icons" name="log-in"></ion-icon>
-                <ion-icon class="icons" name="cart"></ion-icon> -->
             </nav>
         </header>
+
+        <section class="primary-heading">
+            <div>
+                <img
+                    class="title-img"
+                    src="assets/images/hero-title.png"
+                    alt="title image"
+                />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit
+                    tincidunt in felis malesuada mollis purus id sit in aliquet
+                    lectus eget morbi dui felis.
+                </p>
+
+                <div class="Subscribe">
+                    <p>Subscribe On:</p>
+                    <p>
+                        <ion-icon
+                            class="Subscribe-icon"
+                            name="logo-apple"
+                        ></ion-icon>
+                        Apple Music
+                    </p>
+                    <p>
+                        <ion-icon
+                            class="Subscribe-icon"
+                            name="cloud"
+                        ></ion-icon>
+                        SoundCloud
+                    </p>
+                </div>
+
+                <button>
+                    <ion-icon class="Subscribe-icon" name="headset"></ion-icon>
+                    Listen Now
+                </button>
+            </div>
+
+            <div>
+                <img
+                    class="banner-img"
+                    src="assets/images/hero-banner.png"
+                    alt="banner-img"
+                />
+            </div>
+        </section>
     </body>
 </html>
