@@ -11,6 +11,9 @@
     padding-bottom: 1.8rem;
     padding-left: 10rem;
     padding-right: 15rem;
+    /* margin-bottom: 60rem; */
+    /* position: fixed; */
+    width: 100%;
 }
 
 .logo {
@@ -218,33 +221,28 @@
     transition: all 1s;
 }
 
-.epi-icon {
-    position: absolute;
-    height: 5.2rem;
+.epiz {
+    /* position: absolute; */
+    height: 2.2rem;
     width: 5rem;
     color: #fff;
-    transform: translate(400%, -120%);
+    transform: translate(400%, -200%);
+    position: relative;
 
     /* filter: brightness(0);
     opacity: 50%; */
 }
 
-.epic:hover,
-.epic:active {
-    background-color: #ffffffa5;
-    border-radius: 50%;
-    /* overflow: hidden; */
-}
-
-.epiz {
-    height: 1.2rem;
-    transform: translate(400%, -350%);
-}
+/* .epiz {
+    height: 2.2rem;
+    transform: translate(400%, -200%);
+} */
 
 .epiz:hover,
 .epiz:active {
     color: #0051ff;
     border-radius: 50%;
+    background-color: #fff;
 }
 
 .date {
@@ -272,13 +270,169 @@
 }
 
 /* ************************************** */
-/*]Sign-up */
+/*Sign-up */
 /* ************************************** */
+
+.sign-up {
+    position: absolute;
+}
 
 .form-bg {
     /* display: block; */
     height: 400px;
-    width: 100%;
+    width: 155%;
     border-radius: 20%;
     padding: 7rem 15rem 7rem 15rem;
+}
+
+.signs {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+}
+.sign-up-details-1 {
+    transform: translate(5%, -89%);
+    position: absolute;
+}
+.sign-1 {
+    position: relative;
+    font-size: 30px;
+    padding: 0.1rem 15rem 3rem 13rem;
+    margin-right: 30rem;
+    line-height: 1.6;
+}
+.sign-2 {
+    position: relative;
+    font-size: 18px;
+    padding: 0 15rem 2rem 13rem;
+    margin-right: 18rem;
+    line-height: 1.8;
+}
+
+/* .email-box {
+} */
+
+.sign-up-details-2 {
+    position: absolute;
+    transform: translate(130%, -355%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.your-email {
+    position: relative;
+    font-size: 18px;
+    background-color: #ffffff4c;
+    padding: 18px 205px 18px 115px;
+    border: 1px solid currentColor;
+    border-radius: 3%;
+    /* transform: translate(80%); */
+}
+.email-sub {
+    position: relative;
+    font-size: 17px;
+    padding: 15px 25px;
+    transform: translate(-103%);
+    background-color: #006efd;
+    border-radius: 5%;
+    border: none;
+    color: #fff;
+}
+
+/* .email-sub:hover,
+.email-sub:active{
+    background-color: #006EFD; 
+} */
+
+/* ************************************** */
+/*final-section */
+/* ************************************** */
+
+.final-section {
+    display: flex;
+    transform: translate(0%, 220%);
+    justify-content: center;
+    gap: 20rem;
+}
+
+.last {
+    padding-bottom: 28px;
+}
+
+.fin-text {
+    color: #aca7be;
+    font-size: 18px;
+    line-height: 1.8;
+    /* margin-right: rem; */
+}
+
+.last-list {
+    color: #fff;
+    /* margin-right: 282px; */
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+    list-style: none;
+}
+
+.li-1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.li {
+    font-size: 18px;
+    color: #aca7be;
+}
+
+.li:hover,
+.li:active {
+    color: #0c3895;
+    cursor: pointer;
+}
+
+.follow {
+    font-size: 20px;
+    text-align: end;
+    background: linear-gradient(to right, #00caf6, #0062fd);
+    border-radius: 3%;
+    margin-bottom: 20px;
+    /* background: linear-gradient(to right, #00CAF6 50%, #0062FD 50%); */
+}
+
+.final-icons {
+    font-size: 35px;
+    display: flex;
+    gap: 1.2rem;
+    list-style: none;
+    opacity: 49%;
+    /* width: 45px;
+    height: 45px; */
+}
+
+.final-icon {
+    background-color: #aca7be;
+    /* border: 2px solid #ACA7BE; */
+    border-radius: 40%;
+}
+
+.final-icon:hover,
+.final-icon:active {
+    background-color: #008bfa;
+    transition: all 20ms;
+}
+
+.footer {
+    width: 100%;
+    border: 1px solid #221d49;
+    /* border: #170E42; */
+    /* background-color: red; */
+    text-align: center;
+    padding: 2.8rem 0;
+    transform: translate(0%, 700%);
+    color: #aca7be;
+    font-size: 18px;
 }
